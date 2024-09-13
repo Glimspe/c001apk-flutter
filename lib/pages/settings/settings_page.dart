@@ -38,7 +38,7 @@ class _SettingsPageState extends State<SettingsPage>
   bool get wantKeepAlive => true;
 
   late final _settingsController = Get.put(SettingsController());
-  String _version = '1.0.0(1)';
+  String _version = '1.0.1(240914)';
 
   void _getVersionInfo() async {
     PackageInfo packageInfo = await PackageInfo.fromPlatform();
